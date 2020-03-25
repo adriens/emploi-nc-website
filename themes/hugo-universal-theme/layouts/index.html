@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          {{ partial "top.html" . }}
+
+          {{ partial "nav.html" . }}
+
+        </header>
+
+        {{ partial "carousel.html" . }}
+
+        <span id="About"></span>
+
+        {{ partial "about.html" . }}
+
+        <span id="FAQ"></span>
+
+        {{ partial "faq.html" . }}
+
+        <span id="TEAM"></span>
+
+        {{ partial "team.html" . }}
+
+        <span id="STORE"></span>
+
+        {{ partial "see_more.html" . }}
+
+        <span id="JOINUS"></span>
+
+        {{ partial "clients.html" . }}
+
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>
