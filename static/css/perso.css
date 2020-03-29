@@ -1,0 +1,9 @@
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+}
+.bg-carousel { 
+    background-color: rgba(0, 102, 255, 0.678); /* Black w/opacity/see-through */
+}

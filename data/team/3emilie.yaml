@@ -1,0 +1,24 @@
+position: "2"
+
+text: "Présentez vous et ce que vous faites pour le projet."
+name: "Emilie Bossart"
+
+post: "Votre Titre"
+avatar: "img/team/emiliebossart.png"
+
+
+Github: ""
+Linkedin: ""
+Twitter: ""
+Mail: ""
+
+boolactivity1 : "true"
+nameactivity1: "nameactivity1"
+iconactivity1: "<i class='far fa-eye'></i>"
+
+nameactivity2: ""
+activity2: ""
+nameactivity3: ""
+activity3: ""
+nameactivity4: ""
+activity4: ""

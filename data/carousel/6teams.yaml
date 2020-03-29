@@ -1,10 +1,43 @@
 weight: 6
 title: "L'Equipe"
 description: >
-  <ul class="list-style-none">
-     <li>Sliders and carousels</li>
-     <li>4 Header variations</li>
-     <li>Google maps, Forms, Megamenu, CSS3 Animations and much more</li>
-     <li>+ 11 extra pages showing template features</li>
-   </ul>
+ <ul class="collection">
+    <li class="collection-item avatar">
+      <img src="img/team/adriensales.png" alt="" class="circle">
+      <span class="black-text title">Adriens Salès</span>
+      <p class="black-text">Adriens Salès <br>
+         Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+
+    <li class="collection-item avatar">
+      <img src="img/team/ronnysoutart.jpg" alt="" class="circle">
+      <span class="black-text title">Ronny Soutart</span>
+      <p class="black-text">First Line <br>
+         Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+
+    <li class="collection-item avatar">
+        <img src="img/team/emiliebossart.png" alt="" class="circle">
+        <span class="black-text title">Emilie Bossart</span>
+      <p class="black-text">First Line <br>
+         Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+
+    <li class="collection-item avatar">
+      <img src="img/team/jimmyavae.png" alt="" class="circle">
+      <span class="black-text title">Avae Jimmy</span>
+      <p class="black-text">First Line <br>
+         Second Line
+         <a href="#!" class="secondary-content"><i class="fab fa-github"></i></a>
+      </p>
+      <a href="#!" class="secondary-content"><i class="fab fa-github"></i></a>
+    </li>
+
+  </ul>
 image: "img/carousel/template-mac.png"

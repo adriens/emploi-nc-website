@@ -2,9 +2,9 @@ weight: 2
 title: "Fonctionnalités"
 description:   
   <ul class="list-style-none">
-    <li>Consulter les dernières offres d'emplois</li>
-    <li>Prise de contact simplifiées</li>
-    <li>Consulter les Entreprises qui recrutent</li>
-    <li>Recherches personnalisées</li>
+    <li><h2>Consulter les dernières offres d'emplois</h2></li>
+    <li><h2>Prise de contact simplifiées</h2></li>
+    <li><h2>Consulter les Entreprises qui recrutent</h2></li>
+    <li><h2>Recherches personnalisées</h2></li>
   </ul>
 image: "img/carousel/darkANDlight.png"
