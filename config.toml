@@ -14,7 +14,7 @@ paginate = 10
 [[menu.main]]
     identifier="home"
     name = "Home"
-    url  = "/"
+    url  = "https://adriens.github.io/emploi-nc-website"
     weight = 1
 
 [[menu.main]]
