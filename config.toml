@@ -1,8 +1,8 @@
 baseURL = "http://offresemploi.nc/"
-languageCode = "en-us"
+languageCode = "fr"
 title = "Offres d'Emploi Calédonie"
 theme = "emplois-materialize"
-
+disableKinds = ["taxonomy", "taxonomyTerm"]
 # Define the number of posts per page
 paginate = 10
 
