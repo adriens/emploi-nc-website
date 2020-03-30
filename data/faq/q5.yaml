@@ -2,4 +2,5 @@ weight: 5
 question: "Comment contribuer au projet ?"
 icon: "far fa-envelope"
 url: ""
-answer: "Contactez-nous, ici."
+answer: "Fair un ticket sur les dépôts (Appli, API, SDK, ...)"
+# Il va falloir faire une section par type de contribution
