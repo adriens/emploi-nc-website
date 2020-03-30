@@ -24,5 +24,5 @@ jobs:
       if: github.event.deleted == false
       with:
         args: --gc --minify
-        githubToken: ${{ secrets.PERSONAL_TOKEN }}
+        githubToken: ${{ secrets.HUGO_DEPLOY_WEBSITE }}
         cname: github.OffresEmploiNouvelleCaledonie 
