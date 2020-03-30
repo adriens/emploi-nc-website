@@ -1,5 +1,8 @@
 # emploi-nc-website
-Site web de emploi-nc
+
+Site web de emploi-nc.
+
+URL publique: https://adriens.github.io/emploi-nc-website/
 
 ## Instalation HUGO
 
