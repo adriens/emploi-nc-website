@@ -145,6 +145,18 @@ paginate = 10
 [params.about]
     enable = true
     title = "A Propos"
-    text = """ Nous développons actuellement une application mobile qui permettra 
-    aux calédoniens de consulter des offres emplois où qu'ils soit. Nous pensons que ..."""
+    text = """ Nous développons un écosystème complet et Open source autour des Offres d'emploi en Nouvelle-Calédonie. Le but
+    est de mettre en oeuvre, gratuitement, et avec du logiciel Open Source des services packagés comme le font les géants du Web.
+
+    Nous croyons fermement que cette ouverture permettra la création de nouvelles innovations pour notre pays.
+
+    Pour cela nous avons:
+
+    Créé un SDK (https://jitpack.io/#adriens/emploi-nc-sdk) qui permet d'interagir efficacement avec le site des Offres d'Emploi du Gouvernement de Nouvelle-Calédonie
+    
+    Développé une API REST (https://github.com/adriens/emploi-nc-api) qui utilise le SDK
+
+    Déployé sur Heroku et mis à disposition cette API sur le Marketplace d'APIS (https://rapidapi.com/adriens/api/emploi-nouvelle-caledonie)
+ 
+    Développé une application mobile qui permettra aux calédoniens de consulter des offres emplois où qu'ils soit et offrir de nouveaux services"""
 
