@@ -19,9 +19,10 @@ jobs:
         args: --gc --minify --cleanDestinationDir
         # Use if you want to pass some custom arguments to Hugo
         submodules: true
-    - name: build
+    - name: Publish Site
       uses: mattbailey/actions-hugo@v0.57.2
       if: github.event.deleted == false
       with:
         args: --gc --minify
         githubToken: ${{ secrets.PERSONAL_TOKEN }}
+        cname: github.OffresEmploiNouvelleCaledonie 
