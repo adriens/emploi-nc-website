@@ -3,7 +3,7 @@ name: Offres d'Emploi Nouvelle-Calédonie
 on:
   push:
     branches:
-    - master/public
+    - master
 
 jobs:
   build-deploy:
@@ -11,6 +11,13 @@ jobs:
     steps:
     - uses: actions/checkout@master
       with:
+        buildPath: 'public'
+        # Use if you have a need to build the site to another directory
+        hugoVersion: 'extended_0.58.3'
+        # Use if your site requires a specific version of Hugo
+        # Append "extended_" to the begining to use Hugo Extended
+        args: --gc --minify --cleanDestinationDir
+        # Use if you want to pass some custom arguments to Hugo
         submodules: true
     - name: build
       uses: mattbailey/actions-hugo@v0.57.2
