@@ -1,5 +1,5 @@
 weight: 2
-question: "Comment utiliser l'Apk ?"
-icon: "fas fa-print"
+question: "Où est l'application ?"
+icon: "fas fa-globe"
 url: ""
-answer: "Retrouvez un tuto; ici"
+answer: "Vous pouvez retourvez l'application sur le store via ce lien : "

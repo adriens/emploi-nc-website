@@ -1,5 +1,5 @@
 weight: 3
-question: "Où est l'application ?"
-icon: "fas fa-globe"
-url: ""
-answer: "Vous pouvez retourvez l'application sur le store via ce lien : "
+question: "Comment utiliser l'API ?"
+icon: "fas fa-lightbulb"
+url: "https://rapidapi.com/adriens/api/emploi-nouvelle-caledonie"
+answer: "Aller sur le Marketplace pour la documentation et générer du code prêt à l'emploi"

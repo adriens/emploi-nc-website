@@ -1,5 +1,6 @@
 weight: 4
-question: "Comment utiliser l'API ?"
-icon: "fas fa-lightbulb"
-url: "https://rapidapi.com/adriens/api/emploi-nouvelle-caledonie"
-answer: "Aller sur le Marketplace pour la documentation et générer du code prêt à l'emploi"
+question: "Comment contribuer au projet ?"
+icon: "far fa-envelope"
+url: ""
+answer: "Fair un ticket sur les dépôts (Appli, API, SDK, ...)"
+# Il va falloir faire une section par type de contribution

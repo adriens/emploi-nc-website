@@ -2,26 +2,20 @@
 {{ if .Site.Params.faq.enable }}
 {{ if gt (len .Site.Data.faq) 0 }}
 <section id="FAQ" class="bar background-white">
-    <div class="container">
-        <div class="heading text-center">
+    <div class="container ">
+        <div class="heading text-center blue-text">
             <h2>{{ .Site.Params.faq.title | markdownify }}</h2>
         </div>
-        <div class="row">
+        <div class="row center-align" >
             {{ range $index, $element := sort .Site.Data.faq "weight" }}
-            <div class="col s12 m6">
-                <div class=" card">
-
-                    <div class="card-content ">
-                        <span  class="card-title">{{ $element.question | markdownify }}</span >
-                    </div>   
-
-                    <div class="card-action">
-                        <p>{{ $element.answer | markdownify }}</p>
-                    </div>
-
-                </div>                        
+            <div class="col s12 m6 "style="padding:50px;">
+                <p class="flow-text">{{ $element.question | markdownify }}</p >
+                <p>{{ $element.answer | markdownify }}</p>
+                <p>{{ $element.url | markdownify }}</p>
+            </div>      
+            {{ end }}             
             </div>
-        {{ end }}
+        
     </div>
         </div>
     </div>
