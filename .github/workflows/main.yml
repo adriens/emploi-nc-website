@@ -1,0 +1,28 @@
+name: Offres d'Emploi Nouvelle-Calédonie
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@master
+      with:
+        buildPath: 'public'
+        # Use if you have a need to build the site to another directory
+        hugoVersion: 'extended_0.58.3'
+        # Use if your site requires a specific version of Hugo
+        # Append "extended_" to the begining to use Hugo Extended
+        args: --gc --minify --cleanDestinationDir
+        # Use if you want to pass some custom arguments to Hugo
+        submodules: true
+    - name: Publish Site
+      uses: mattbailey/actions-hugo@v0.57.2
+      if: github.event.deleted == false
+      with:
+        args: --gc --minify
+        githubToken: ${{ secrets.HUGO_DEPLOY_WEBSITE }}
+        cname: github.OffresEmploiNouvelleCaledonie.com
