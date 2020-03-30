@@ -24,3 +24,4 @@ jobs:
       if: github.event.deleted == false
       with:
         args: --gc --minify
+        githubToken: ${{ secrets.PERSONAL_TOKEN }}
