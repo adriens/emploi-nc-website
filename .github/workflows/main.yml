@@ -11,7 +11,6 @@ jobs:
     steps:
     - uses: actions/checkout@master
       with:
-        buildPath: 'public'
         # Use if you have a need to build the site to another directory
         hugoVersion: 'extended_0.58.3'
         # Use if your site requires a specific version of Hugo
