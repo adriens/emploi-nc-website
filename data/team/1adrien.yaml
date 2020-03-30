@@ -2,10 +2,11 @@ position: "0"
 
 text: "Présentez vous et ce que vous faites pour le projet."
 name: "Adriens Sales"
-poste: "Chef de Bureau"
+poste: "CEO & CIO"
 
 desc: "Product Owner, Scrum Master, animation LEAN"
-description: "Promouvoir l'innovation en créant un écosystème complet autour d'un service, en s'appuyant sur des services clouds, intégrés en continu"
+description: "Promouvoir l'innovation en créant un écosystème complet autour d'un service, en s'appuyant sur des services
+clouds, intégrés en continu."
 
 avatar: "img/team/adriensales.png"
 Github: "https://github.com/adriens"
@@ -14,21 +15,16 @@ Twitter: "@rastadidi"
 ##Mail: "s.com"
 
 boolactivity1: "true"
-nameactivity1: "Imaginer un écosystème complet, partager la vision"
+nameactivity1: "Vision"
 iconactivity1: "far fa-eye"
-activity1: "blabla"
+activity1: "Imaginer un écosystème complet, partager la vision, design architecture 100% cloud."
 
 boolactivity2: "true"
-nameactivity2: "Animer, aider, accompagner"
+nameactivity2: "Coacher"
 iconactivity2: "far fa-eye"
-activity2: ""
+activity2: "Aider, animer, accompagner."
 
 boolactivity3: "true"
 nameactivity3: "LEAN Startup"
 iconactivity3: "far fa-eye"
 activity3: "Veiller à développer les bonnes choses au bon moment pour maximiser la productivité sur l'écosystème"
-
-boolactivity4: "true"
-nameactivity4: "Mentoring"
-iconactivity4: "far fa-eye"
-activity4: "Accompagner, coacher sur les technologies, créer du lien"
