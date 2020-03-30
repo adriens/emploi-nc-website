@@ -25,4 +25,4 @@ jobs:
       with:
         args: --gc --minify
         githubToken: ${{ secrets.HUGO_DEPLOY_WEBSITE }}
-        cname: github.OffresEmploiNouvelleCaledonie 
+        cname: github.OffresEmploiNouvelleCaledonie.com
