@@ -24,11 +24,11 @@ Lancement du server local :
 
 #### Fichiers Data/[nomdata].yaml
 
-Vous pouvez modifié directement les données à partir de fichier de "config". 
+Vous pouvez modifier directement les données à partir du fichier de "config". 
 
-Pour les toutes les données sauf A propos.
+Pour toutes les données sauf A propos.
 
-Pour A propos modifier le fichier about.html et/ou config.toml.
+Pour A propos : modifier le fichier about.html et/ou config.toml.
 
 ```
 [params.about]
@@ -51,13 +51,13 @@ Code HTML accepté.
 
 ##### Suppression de données
 
-Si vous par exemple supprimer uun collborateur de la page il suffit de supprimer son fichier associé.
+Si vous voulez par exemple supprimer un collborateur de la page il suffit de supprimer son fichier associé.
 
 Si vous voulez supprimez un champs mettez le vide.
 
 ###### Ajout de données
 
-Si vous voulez ajouter un collaborateur créer un fichier et renseigner tous les paramètres.
+Si vous voulez ajouter un collaborateur créé un fichier et renseigner tous les paramètres.
 
 Vous pouvez ajouter un champs en faisait dans un fichier .yaml :
 
