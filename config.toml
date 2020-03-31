@@ -145,7 +145,8 @@ paginate = 10
 [params.about]
     enable = true
     title = "A Propos"
-    text = """ Nous développons un écosystème complet et Open source autour des Offres d'emploi en Nouvelle-Calédonie. Le but
-    est de mettre en oeuvre, gratuitement, et avec du logiciel Open Source des services packagés comme le font les géants du Web
-    et d'encourager l'Open Innovation en Nouvelle-Calédonie."""
+    text = """ Notre ambition est de construire et de mettre à disposition du plus grand nombre un écosystème complet et Open
+     source autour des Offres d'emploi en Nouvelle-Calédonie. Les logiciel est open source. Nous espérons attirer ds utilisateurs
+     finaux, des développeurs, des intégrateurs, des étudiant stagiaires qui souhaitent apprendre et progresser tout en participant
+     à un produit utile au plus grand nombre, pour nous, les calédoniens."""
 
