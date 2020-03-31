@@ -146,7 +146,7 @@ paginate = 10
     enable = true
     title = "A Propos"
     text = """ Notre ambition est de construire et de mettre à disposition du plus grand nombre un écosystème complet et Open
-     source autour des Offres d'emploi en Nouvelle-Calédonie. Les logiciel est open source. Nous espérons attirer ds utilisateurs
-     finaux, des développeurs, des intégrateurs, des étudiant stagiaires qui souhaitent apprendre et progresser tout en participant
+     source autour des Offres d'emploi en Nouvelle-Calédonie. Le logiciel est open source. Nous espérons attirer ds utilisateurs
+     finaux, des développeurs, des intégrateurs, des étudiants stagiaires qui souhaitent apprendre et progresser tout en participant
      à un produit utile au plus grand nombre, pour nous, les calédoniens."""
 
