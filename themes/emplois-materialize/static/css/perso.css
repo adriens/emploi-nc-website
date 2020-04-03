@@ -1,0 +1,36 @@
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+}
+.bg-carousel { 
+    background-color: rgba(0, 102, 255, 0.678); /* Black w/opacity/see-through */
+}
+#banner {
+    z-index: 1000;
+    height: 149px;
+    width: 149px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+#banner a {
+    display: block;
+    width: 230px;
+    font-size: 14px;
+    background-color: #333;
+    color: #FFF;
+    word-spacing: 2px;
+    text-decoration: none;
+    padding: 5px 15px 5px 25px;
+    position: relative;
+    left: 20px;
+    top: -37px;
+    text-align: center;
+    transform-origin: 0 0;
+    transform: rotate(45deg);
+}
