@@ -4,14 +4,15 @@
 <section id="FAQ" class="bar background-white">
     <div class="container ">
         <div class="heading text-center blue-text">
-            <h2>{{ .Site.Params.faq.title | markdownify }}</h2>
+            <h2>{{ .Site.Params.faq.title  }}</h2>
         </div>
         <div class="row center-align" >
-            {{ range $index, $element := sort .Site.Data.faq "weight" }}
+            {{ range sort .Site.Data.faq "weight" }}
+           
             <div class="col s12 m6 "style="padding:50px;">
-                <p class="flow-text">{{ $element.question | markdownify }}</p >
-                <p>{{ $element.answer | markdownify }}</p>
-                <p>{{ $element.url | markdownify }}</p>
+                <a href="{{ .url }}"><img src="{{ .icon }}" alt="" height="100" width="100"></a>
+                <p class="flow-text">{{ .question  }}</p >
+                <p>{{ .answer }}</p>
             </div>      
             {{ end }}             
             </div>

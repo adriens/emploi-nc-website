@@ -1,5 +1,5 @@
 weight: 3
 question: "Comment utiliser l'API ?"
-icon: "fas fa-lightbulb"
+icon: "img/faq/api.png"
 url: "https://rapidapi.com/adriens/api/emploi-nouvelle-caledonie"
 answer: "Aller sur le Marketplace pour la documentation et générer du code prêt à l'emploi"
