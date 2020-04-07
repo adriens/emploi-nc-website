@@ -2,8 +2,8 @@ weight: 3
 title: "Nous Trouver"
 description:
   <ul class="list-style-none">
-    <li><h2>Twitter</h2></li>
-    <li><h2>Youtube</h2></li>
-    <li><h2>Github</h2></li>
+    <li><h2>Twitter <a href="https://github.com/adriens/emploi-nc-app"><i class="fab fa-twitter-square"></i></a></h2></li>
+    <li><h2>Youtube <a href="https://www.youtube.com/playlist?list=PLVaySOddZPMer1H6o234RyWhEfSThuYW5"><i class="fab fa-youtube"></i></a></h2></li>
+    <li><h2>Github <a href="https://twitter.com/NcEmploi"><i class="fab fa-github-square"></i></a></h2></li>
   </ul>
 image: "img/carousel/mockup.png"
