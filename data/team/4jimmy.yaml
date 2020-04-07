@@ -5,7 +5,7 @@ name: "Avae Jimmy"
 
 desc: ""
 poste: "Lead Developer"
-
+description: "Participer à des projets innovants et intéressants."
 avatar: "img/team/jimmyavae.png"
 
 
@@ -15,12 +15,17 @@ Twitter: ""
 Mail: ""
 
 boolactivity1 : "true"
-nameactivity1: "nameactivity1"
-iconactivity1: "<i class='far fa-eye'></i>"
+nameactivity1: "Développement Web"
+iconactivity1: "fas fa-laptop-code"
+activity1: "Je parcours les différentes technologie Web : Apprendre, Développer, Implémenter."
 
-nameactivity2: ""
-activity2: ""
+boolactivity2 : "true"
+nameactivity2: "Smartphone"
+iconactivity2: "fas fa-mobile"
+activity2: "Un univers de possibilités "
+
 nameactivity3: ""
 activity3: ""
+
 nameactivity4: ""
 activity4: ""
