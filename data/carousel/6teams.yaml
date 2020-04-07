@@ -5,39 +5,26 @@ description: >
     <li class="collection-item avatar">
       <img src="img/team/adriensales.png" alt="" class="circle">
       <span class="black-text title">Adriens Salès</span>
-      <p class="black-text">Adriens Salès <br>
-         Second Line
-      </p>
       <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
     </li>
 
     <li class="collection-item avatar">
       <img src="img/team/ronnysoutart.jpg" alt="" class="circle">
       <span class="black-text title">Ronny Soutart</span>
-      <p class="black-text">First Line <br>
-         Second Line
-      </p>
       <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
     </li>
 
     <li class="collection-item avatar">
         <img src="img/team/emiliebossart.png" alt="" class="circle">
         <span class="black-text title">Emilie Bossart</span>
-      <p class="black-text">First Line <br>
-         Second Line
-      </p>
       <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
     </li>
 
     <li class="collection-item avatar">
       <img src="img/team/jimmyavae.png" alt="" class="circle">
       <span class="black-text title">Avae Jimmy</span>
-      <p class="black-text">First Line <br>
-         Second Line
-         <a href="#!" class="secondary-content"><i class="fab fa-github"></i></a>
-      </p>
-      <a href="#!" class="secondary-content"><i class="fab fa-github"></i></a>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
     </li>
 
   </ul>
-image: "img/carousel/template-mac.png"
+image: ""

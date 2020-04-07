@@ -1,25 +1,33 @@
+{{ if .Site.Params.footer.enable }}
 <footer class="page-footer blue darken-3">
 <div class="container">
     <div class="row">
     <div class="col l6 s12">
-        <h5 class="white-text">Footer Content</h5>
-        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        <h5 class="white-text">Liens</h5>
+        <ul>
+            <li><a class="grey-text text-lighten-3" href="{{ .Site.Params.footer.store_url }}">Application Google Play Store</a></li>
+            <li><a class="grey-text text-lighten-3" href="{{ .Site.Params.footer.ytbe_url }}">Chaine Youtube</a></li>
+            <li><a class="grey-text text-lighten-3" href="{{ .Site.Params.footer.twitter_url }}">Compte Twitter</a></li>
+        </ul>
+        
     </div>
     <div class="col l4 offset-l2 s12">
-        <h5 class="white-text">Links</h5>
+        <h5 class="white-text">Liens de développement</h5>
         <ul>
-        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+        <li><a class="grey-text text-lighten-3" href="{{ .Site.Params.footer.store_url }}">Application</a></li>
+        <li><a class="grey-text text-lighten-3" href="{{ .Site.Params.footer.sdk_github_url }}">Github SDK</a></li>
+        <li><a class="grey-text text-lighten-3" href="{{ .Site.Params.footer.api_github_url }}">Github API</a></li>
+        <li><a class="grey-text text-lighten-3" href="{{ .Site.Params.footer.app_github_url }}!">Github APP</a></li>
+        <li><a class="grey-text text-lighten-3" href="{{ .Site.Params.footer.website_github_url }}">Github WEBSITE</a></li>
         </ul>
     </div>
     </div>
 </div>
 <div class="footer-copyright">
     <div class="container">
-    © 2014 Copyright Text
+    © 2020 Copyright Text
     <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
     </div>
 </div>
 </footer>
+{{ end }}

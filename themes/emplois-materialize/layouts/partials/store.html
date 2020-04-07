@@ -10,7 +10,7 @@
 
             {{ end }}
             
-            <a class="" href="{{ . }}" >   
+            <a class="" href="{{ .Site.Params.see_more.link_url }}" >   
                 <span class="fa-stack {{ .Site.Params.see_more.size_icon }}" >
                     <i class="fa fa-circle fa-stack-2x "></i>
                     <i class="{{ .Site.Params.see_more.icon }}  fa-stack-1x fa-inverse"></i>
@@ -21,7 +21,9 @@
         <!-- Promo Content 2 goes here -->
         </div>
         <div class="col s12 center-align" style="padding-top:2%;">
-            <img src="img/qr-code-google-play-store.png" alt="" height="200" width="200">
+            <a class="" href="{{ .Site.Params.see_more.link_url }}" >  
+                <img src="img/qr-code-google-play-store.png" alt="" height="200" width="200">
+            </a>
         </div>
     </div>
 </section>

@@ -13,7 +13,7 @@
                 <p class="black-text">{{ .poste }} <br>
                     {{ .desc }}
                 </p>
-                <a onclick="goToslide('{{ .position }}')" class="secondary-content" ><i class="far fa-eye"></i></a>
+                <a href="#TEAM" onclick="goToslide('{{ .position }}')" class="secondary-content" ><i class="far fa-eye"></i></a>
                 </li>
                 {{ end }}
              <li class="collection-item avatar"></li>
@@ -60,7 +60,7 @@
                                 </div>
                         </div>
                         <div class="col s12 l8 m8" style="margin-top:-35px;">
-                            <ul class="collapsible popout expandable black-text" >
+                            <ul class="collapsible black-text" >
                                {{ if eq .boolactivity1 "true" }}
                                 <li>
                                     <div class="collapsible-header"><i class="{{ .iconactivity1 }}"></i>{{ .nameactivity1 }}</div>
@@ -87,8 +87,8 @@
                                 {{ end }}
                             </ul>
                         </div>
-                        <h2>First Panel</h2>
-                        <p class="white-text">This is your first panel</p>
+                        <h2 class="black-text"></h2>
+                       
                     </div>
                   </div>
                   {{ end }}

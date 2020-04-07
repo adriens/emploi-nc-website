@@ -3,7 +3,9 @@ position: "2"
 text: "Présentez vous et ce que vous faites pour le projet."
 name: "Emilie Bossart"
 
-post: "Votre Titre"
+desc: ""
+poste: "Graphic Designer"
+
 avatar: "img/team/emiliebossart.png"
 
 

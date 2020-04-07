@@ -3,7 +3,8 @@ position: "1"
 text: "Présentez vous et ce que vous faites pour le projet."
 name: "Ronny Soutart"
 
-post: "Votre Titre"
+desc: ""
+poste: "Conseil dev. Flutter et ergonomie"
 avatar: "img/team/ronnysoutart.jpg"
 
 Github: "https://github.com/HakumenNC"

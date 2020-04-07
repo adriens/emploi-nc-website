@@ -3,7 +3,9 @@ position: "3"
 text: "Présentez vous et ce que vous faites pour le projet."
 name: "Avae Jimmy"
 
-post: "Votre Titre"
+desc: ""
+poste: "Lead Developer"
+
 avatar: "img/team/jimmyavae.png"
 
 

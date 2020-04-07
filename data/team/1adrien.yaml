@@ -3,7 +3,6 @@ position: "0"
 text: "Présentez vous et ce que vous faites pour le projet."
 name: "Adriens Sales"
 poste: "CEO & CIO"
-
 desc: "Product Owner & Scrum Master"
 description: "Promouvoir la création d'une plateforme cloud complète et professionnelle."
 
@@ -11,19 +10,20 @@ avatar: "img/team/adriensales.png"
 Github: "https://github.com/adriens"
 Linkedin: "https://www.linkedin.com/in/adrien-sales/"
 Twitter: "@rastadidi"
-##Mail: "s.com"
+##Mail: fab fa-sistrix"></i>fas fa-tasks"></i><i class="fas fa-users"></i>
+
 
 boolactivity1: "true"
 nameactivity1: "Vision"
-iconactivity1: "far fa-eye"
+iconactivity1: "fab fa-sistrix"
 activity1: "Imaginer un écosystème complet, partager la vision, design architecture 100% cloud."
 
 boolactivity2: "true"
 nameactivity2: "Coacher"
-iconactivity2: "far fa-eye"
+iconactivity2: "fas fa-users"
 activity2: "Aider, animer, accompagner."
 
 boolactivity3: "true"
 nameactivity3: "LEAN Startup"
-iconactivity3: "far fa-eye"
+iconactivity3: "fas fa-tasks"
 activity3: "Veiller à développer les bonnes choses au bon moment pour maximiser la production de valeur."

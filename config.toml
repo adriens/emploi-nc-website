@@ -118,8 +118,8 @@ paginate = 10
     enable = true
     icon = "fab fa-google-play"
     title = "Télécharger l'application sur le Play Store"
-    subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunet doloxercitation ullamco."
-    link_url = "#"
+    subtitle = "L'application est désormais disponible sur le google Play Store."
+    link_url = "https://play.google.com/store/apps/details?id=com.github.adriens.nc.emploi"
     link_text = "fab fa-google-play"
     size_icon = "fa-3x"
     
@@ -135,8 +135,6 @@ paginate = 10
     title = "Notre Equipe"
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
-
-
 [params.clients]
     enable = true
     title = "Rejoignez-nous"
@@ -150,3 +148,12 @@ paginate = 10
      finaux, des développeurs, des intégrateurs, des étudiants stagiaires qui souhaitent apprendre et progresser tout en participant
      à un produit utile au plus grand nombre, pour nous, les calédoniens."""
 
+[params.footer]
+    enable = true
+    store_url = "https://play.google.com/store/apps/details?id=com.github.adriens.nc.emploi"
+    sdk_github_url = "https://github.com/adriens/emploi-nc-sdk"
+    api_github_url = "https://github.com/adriens/emploi-nc-api"
+    app_github_url = "https://github.com/adriens/emploi-nc-app"
+    website_github_url = "https://github.com/adriens/emploi-nc-website"
+    ytbe_url= "https://www.youtube.com/playlist?list=PLVaySOddZPMer1H6o234RyWhEfSThuYW5"
+    twitter_url = "https://twitter.com/NcEmploi" 
