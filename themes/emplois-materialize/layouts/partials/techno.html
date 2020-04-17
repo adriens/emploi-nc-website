@@ -1,0 +1,30 @@
+{{ if isset .Site.Params "techno" }}
+{{ if .Site.Params.techno.enable }}
+<div class="container">
+    
+    <div class="col s12">
+        <div class="heading text-center blue-text" >
+            <h1 style="padding:5%;padding-top:2%;">{{ .Site.Params.techno.title  }}</h1>
+        </div>
+        <p class="flow-text" style="padding-bottom:5%;">
+            {{.Site.Params.about.text}}
+        </p>
+    </div>
+</div>
+
+<div class="row">
+
+    {{ range sort .Site.Data.techno "weight" }}
+           
+
+    <div class="col s4 m2 "style="padding:50px;">        
+
+       <a href="{{ .url }}"><img class="responsive-img" src="{{ .icon }}" alt="" height="100" width="100"></a>
+
+    </div>      
+    
+    {{ end }}    
+
+</div>
+{{ end }}
+{{ end }}

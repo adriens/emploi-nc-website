@@ -40,11 +40,10 @@ paginate = 10
     name = "Télécharger"
     url  = "#STORE"
     weight = 5
-
 [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url  = "#CONTACT"
+    identifier = "Made"
+    name = "Made"
+    url  = "/made"
     weight = 6
 
 # Top bar social links menu
@@ -143,6 +142,14 @@ paginate = 10
 [params.about]
     enable = true
     title = "A Propos"
+    text = """ Notre ambition est de construire et de mettre à disposition du plus grand nombre un écosystème complet et Open
+     source autour des Offres d'emploi en Nouvelle-Calédonie. Le logiciel est open source. Nous espérons attirer ds utilisateurs
+     finaux, des développeurs, des intégrateurs, des étudiants stagiaires qui souhaitent apprendre et progresser tout en participant
+     à un produit utile au plus grand nombre, pour nous, les calédoniens."""
+
+[params.techno]
+    enable = true
+    title = "Nos outils"
     text = """ Notre ambition est de construire et de mettre à disposition du plus grand nombre un écosystème complet et Open
      source autour des Offres d'emploi en Nouvelle-Calédonie. Le logiciel est open source. Nous espérons attirer ds utilisateurs
      finaux, des développeurs, des intégrateurs, des étudiants stagiaires qui souhaitent apprendre et progresser tout en participant

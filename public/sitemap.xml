@@ -3,15 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://offresemploi.nc/categories/</loc>
-  </url>
-  
-  <url>
     <loc>http://offresemploi.nc/</loc>
-  </url>
-  
-  <url>
-    <loc>http://offresemploi.nc/tags/</loc>
   </url>
   
 </urlset>
