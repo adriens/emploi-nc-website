@@ -43,7 +43,7 @@ paginate = 10
 [[menu.main]]
     identifier = "Made"
     name = "Made"
-    url  = "/made"
+    url  = "https://adriens.github.io/emploi-nc-website/made"
     weight = 6
 
 # Top bar social links menu
