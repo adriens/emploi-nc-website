@@ -14,7 +14,7 @@ paginate = 10
 [[menu.main]]
     identifier="home"
     name = "Home"
-    url  = "https://adriens.github.io/emploi-nc-website"
+    url  = "/"
     weight = 1
 
 [[menu.main]]
@@ -41,9 +41,9 @@ paginate = 10
     url  = "#STORE"
     weight = 5
 [[menu.main]]
-    identifier = "Made"
-    name = "Made"
-    url  = "https://adriens.github.io/emploi-nc-website/made"
+    identifier = "Stack"
+    name = "Stack"
+    url  = "/stack"
     weight = 6
 
 # Top bar social links menu
