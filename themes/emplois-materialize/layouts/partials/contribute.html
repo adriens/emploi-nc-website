@@ -1,0 +1,42 @@
+{{ if isset .Site.Params "carousel" }}
+{{ if .Site.Params.contributeur.enable }}
+
+
+
+<section id="contributeur" class="bar background-white">
+
+    <div class="container">
+    <h4 class="header">Recherche de contributeurs</h4>
+
+    {{ range sort .Site.Data.contributeur "weight" }}
+    <div class="col s12 m7">
+
+        <div class="card horizontal">
+
+        <div class="card-image">
+            <img src="https://lorempixel.com/100/190/nature/6">
+        </div>
+
+        <div class="card-stacked">
+
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">
+                    {{ .name  }}
+                    <i class="material-icons right">more_vert</i>
+                </span>
+            <p>{{ .text  }}</p>
+            </div>
+
+            <div class="card-action">
+            <a href="#">{{ .texturl }}</a>
+            </div>
+
+        </div>
+
+    </div>
+    {{ end }}
+    </div>
+</section>
+
+{{ end }}
+{{ end }}

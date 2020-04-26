@@ -45,6 +45,11 @@ paginate = 10
     name = "Stack"
     url  = "/stack"
     weight = 6
+[[menu.main]]
+    identifier = "Contribute"
+    name = "Contribute"
+    url  = "/contribute"
+    weight = 7
 
 # Top bar social links menu
 
@@ -134,7 +139,7 @@ paginate = 10
     title = "Notre Equipe"
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
-[params.clients]
+[params.contributeur]
     enable = true
     title = "Rejoignez-nous"
     subtitle = ""
