@@ -1,7 +1,7 @@
 weight: 1
-name: "customer-2"
+name: "Musicien"
 text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
-image: "img/clients/customer-2.png"
+image: "../img/contribute/musicien.png"
 texturl: "texturl"
-url: "http://www.customer2.com"
+url: "http://www.customer3.com"

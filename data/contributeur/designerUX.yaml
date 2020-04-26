@@ -2,6 +2,6 @@ weight: 1
 name: "Designer UX"
 text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
-image: "img/clients/customer-6.png"
+image: "../img/contribute/designerUX.jpg"
 texturl: "texturl"
 url: "http://www.customer6.com"
