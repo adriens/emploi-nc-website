@@ -6,7 +6,7 @@
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="left  hide-on-med-and-down">
         {{ range .Site.Menus.main.ByWeight }}
-            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+            <li><a class="js-scrollTo" href="{{ .URL }}">{{ .Name }}</a></li>
         {{ end }}
       </ul>
     </div>
@@ -14,7 +14,18 @@
 </div>
 <ul class="sidenav" id="mobile-demo">
   {{ range .Site.Menus.main.ByWeight }}
-  <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+  <li><a class="js-scrollTo" href="{{ .URL }}">{{ .Name }}</a></li>
 {{ end }}
 </ul>
 {{ end }}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 750; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
+	});
+</script>
