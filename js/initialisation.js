@@ -38,13 +38,11 @@ function startAutoplay($carousel) {
    autoplay_id = setInterval(function() {
       $carousel.carousel('next');
     }, 8000); // every 5 seconds
-  //console.log("starting autoplay");
 }
 
 function stopAutoplay() {
   if(autoplay_id) {
     clearInterval(autoplay_id);
-    //console.log("stoping autoplay");
   }
 }
 
