@@ -3,98 +3,67 @@
 {{ if gt (len .Site.Data.team) 0 }}
 <section>
     <div class="row">
-    
-        <div class="col s12 l3 m3" style="margin-top:100px;">
-            <ul class="collection" >
-                {{ range .Site.Data.team }}
-                <li class="collection-item avatar">
-                <img src="{{ .avatar }}" alt="" class="circle">
-                <span class="black-text title">{{ .name }}</span>
-                <p class="black-text">{{ .poste }} <br>
-                    {{ .desc }}
-                </p>
-                <a href="#TEAM" onclick="goToslide('{{ .position }}')" class="secondary-content" ><i class="far fa-eye"></i></a>
-                </li>
-                {{ end }}
-             <li class="collection-item avatar"></li>
-            </ul>
-        </div>
+            {{ range .Site.Data.team }}
+            <div class="col offset-s2 s8 l3 m3" >
+                <div class="card sticky-action medium blue-grey darken-1" style="margin: 0;margin-top: 10px;">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/team/defaultLONG.jpg">
+                        </div>
+                    <div class="card-image">
+                        <img src="">
 
-    
-        <div class="col  l9 m9" >
-        
-            <div class="carousel carousel-slider center " id="teamcarousel" style="min-height:70vh;margin-top:100px;">
-                {{ range .Site.Data.team }}
-                  <div class="carousel-item white-text" href="#one!">
-                    <div class="row no-padding-top">
-                        <div class="col s12  offset-m1 m4">
+                        </div>
+
+                        <div class="card-content white-text">
+                            <span class="card-title activator text-darken-4">{{ .name }}<i class="material-icons right">more_vert</i></span>
+                            <p>{{ .poste }}</p>
+                        </div>
+
+                        
+
+                        <div class="card-action">
                             
-                            <div class="card sticky-action medium blue-grey darken-1"  style="top:-35px ">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="activator" src="img/team/defaultLONG.jpg">
-                                  </div>
-                                <div class="card-image">
-                                    <img src="">
-  
-                                  </div>
-
-                                    <div class="card-content white-text">
-                                        <span class="card-title activator text-darken-4">{{ .name }}<i class="material-icons right">more_vert</i></span>
-                                        <p><a href="#"></a></p>
-                                    </div>
-
-                                    
-
-                                    <div class="card-action">
-                                      
-                                        <a href="{{ .Github }}" class="secondary-content">Github <i class="fab fa-github"></i></a>
-                                        <a href="{{ .Linkedin }}" class="secondary-content">Linkedin <i class="fab fa-linkedin-in"></i></i></a>
-                                        {{ if not (eq .Twitter "") }}
-                                        <a href="https://twitter.com/{{ .Twitter }}" class="secondary-content">Twitter <i class="fab fa-twitter"></i></a>
-                                        {{ end }}
-                                    </div>
-                                    <div class="card-reveal">
-                                        <span class="card-title grey-text text-darken-4">{{ .name }}<i class="material-icons right">close</i></span>
-                                        <p class="grey-text">{{ .description }}</p>
-                                    </div> 
-                                </div>
+                            <a href="{{ .Github }}" class="secondary-content">Github <i class="fab fa-github"></i></a>
+                            <a href="{{ .Linkedin }}" class="secondary-content">Linkedin <i class="fab fa-linkedin-in"></i></i></a>
+                            {{ if not (eq .Twitter "") }}
+                            <a href="https://twitter.com/{{ .Twitter }}" class="secondary-content">Twitter <i class="fab fa-twitter"></i></a>
+                            {{ end }}
                         </div>
-                        <div class="col s12 l6 m6" style="margin-top:-35px;">
-                            <ul class="collapsible black-text" >
-                               {{ if eq .boolactivity1 "true" }}
-                                <li>
-                                    <div class="collapsible-header"><i class="{{ .iconactivity1 }}"></i>{{ .nameactivity1 }}</div>
-                                    <div class="collapsible-body"><span>{{ .activity1 }}</span></div>
-                                </li>
-                                {{ end }}
-                                {{ if eq .boolactivity2 "true" }}
-                                <li>
-                                    <div class="collapsible-header"><i class="{{ .iconactivity2 }}"></i>{{ .nameactivity2 }}</div>
-                                    <div class="collapsible-body"><span>{{ .activity2 }}</span></div>
-                                </li>
-                                {{ end }}
-                                {{ if eq .boolactivity3 "true" }}
-                                <li>
-                                    <div class="collapsible-header"><i class="{{ .iconactivity3 }}"></i>{{ .nameactivity3 }}</div>
-                                    <div class="collapsible-body"><span>{{ .activity3 }}</span></div>
-                                </li>
-                                {{ end }}
-                                {{ if eq .boolactivity4 "true" }}
-                                <li>
-                                    <div class="collapsible-header"><i class="{{ .iconactivity4 }}"></i>{{ .nameactivity4 }}</div>
-                                    <div class="collapsible-body"><span>{{ .activity4 }}</span></div>
-                                </li>
-                                {{ end }}
-                            </ul>
-                        </div>
-                        <h2 class="black-text"></h2>
-                       
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">{{ .name }}<i class="material-icons right">close</i></span>
+                            <p class="grey-text">{{ .description }}</p>
+                        </div> 
                     </div>
-                  </div>
-                  {{ end }}
             </div>
-
-        </div>
+            <div class="col s12 l3 m3" style="height: 420px;margin-top:5%;">
+                <ul class="collapsible black-text" >
+                    {{ if eq .boolactivity1 "true" }}
+                    <li>
+                        <div class="collapsible-header"><i class="{{ .iconactivity1 }}"></i>{{ .nameactivity1 }}</div>
+                        <div class="collapsible-body"><span>{{ .activity1 }}</span></div>
+                    </li>
+                    {{ end }}
+                    {{ if eq .boolactivity2 "true" }}
+                    <li>
+                        <div class="collapsible-header"><i class="{{ .iconactivity2 }}"></i>{{ .nameactivity2 }}</div>
+                        <div class="collapsible-body"><span>{{ .activity2 }}</span></div>
+                    </li>
+                    {{ end }}
+                    {{ if eq .boolactivity3 "true" }}
+                    <li>
+                        <div class="collapsible-header"><i class="{{ .iconactivity3 }}"></i>{{ .nameactivity3 }}</div>
+                        <div class="collapsible-body"><span>{{ .activity3 }}</span></div>
+                    </li>
+                    {{ end }}
+                    {{ if eq .boolactivity4 "true" }}
+                    <li>
+                        <div class="collapsible-header"><i class="{{ .iconactivity4 }}"></i>{{ .nameactivity4 }}</div>
+                        <div class="collapsible-body"><span>{{ .activity4 }}</span></div>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>            
+            {{ end }}  
     </div>
 </section>
 <!-- /.bar -->
