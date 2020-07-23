@@ -6,7 +6,7 @@ name: "Avae Jimmy"
 desc: ""
 poste: "Lead Developer"
 description: "Participer à des projets innovants et intéressants."
-avatar: "img/team/jimmyavae.png"
+avatar: "img/team/jimmyavae.jpg"
 
 
 Github: "https://github.com/zYmMiJ"
@@ -17,12 +17,12 @@ Mail: ""
 boolactivity1 : "true"
 nameactivity1: "Développement Web"
 iconactivity1: "fas fa-laptop-code"
-activity1: "Je parcours les différentes technologie Web : Apprendre, Inventer, Développer."
+activity1: "Angular, React, Laravel, PWA."
 
 boolactivity2 : "true"
 nameactivity2: "Smartphone"
 iconactivity2: "fas fa-mobile"
-activity2: "Un univers de possibilités "
+activity2: "Ionic, Flutter."
 
 nameactivity3: ""
 activity3: ""
